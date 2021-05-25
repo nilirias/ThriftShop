@@ -3,9 +3,9 @@
     <div class="navbar-brand">
       <!-- TODO: Add logo -->
       <router-link class="navbar-item" to="/">
-        <img src="../assets/JacoboDesign.png" >
+        <img src="../assets/unnamed.png" >
       </router-link>
-      <a role="button" class="navbar-burger" :class="{ 'is-active': showNav }" @click="showNav = !showNav" aria-label="menu" aria-expanded="false">
+      <a role="button" class="navbar-burger" :class="{ 'is-active': showNav }" @click="showNav = !showNav" aria-label="menu" aria-expanded="true">
         <span aria-hidden="true"/>
         <span aria-hidden="true"/>
         <span aria-hidden="true"/>
@@ -17,8 +17,8 @@
     <div class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-end">
         <router-link class="navbar-item" to="/">Menu</router-link>
-        <router-link class="navbar-item" to="/peluches">Peluches</router-link>
-        <router-link class="navbar-item" to="/patrones">Patrones</router-link>
+        <router-link class="navbar-item" to="/peluches">Ultimo</router-link>
+        <router-link class="navbar-item" to="/patrones">Popular</router-link>
         <router-link class="navbar-item" to="/contacto">Contacto</router-link>
         <router-link class="navbar-item" to="/account">Mi Cuenta</router-link>
         <a class="navbar-item navbar-cart" @click="$emit('show-cart')">

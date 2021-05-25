@@ -1,7 +1,7 @@
 <template>
 <div>
-  <div style="height: 300px; color:white; text-align: center; vertical-align: middle; font-size:80px;background-image: url('pink2.jpg')" >
-    <div style="vertical-align: middle; padding-top: 100px">JACOBO DESIGN</div>
+  <div class="center" style="height: 300px; color:white; text-align: center; vertical-align: middle; font-size:80px;background-image: url('pink2.jpg')" >
+    <div style="vertical-align: middle; padding-top: 100px"> THRIFT-SHOP</div>
   </div>
 
   <div>

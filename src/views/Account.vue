@@ -50,7 +50,7 @@
       <br>
 </div>
 <div v-if="!sign">
-   <div style="height: 300px; color:white; text-align: center; vertical-align: middle; font-size:80px;background-image: url('pink2.jpg')" >
+   <div  class="center" style="height: 300px; color:white; text-align: center; vertical-align: middle; font-size:80px;background-image: url('pink2.jpg')" >
     <div style="vertical-align: middle; padding-top: 100px">MI CUENTA</div>
   </div>
  <br>

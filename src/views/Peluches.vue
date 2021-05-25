@@ -1,10 +1,11 @@
+<!--- PELUCHES = LO ULTIMO--->
 <template>
 <div style="height: 300px; color:white; text-align: center; vertical-align: middle; font-size:80px;background-image: url('pink.jpg')" >
-    <div style="vertical-align: middle; padding-top: 100px">PELUCHES</div>
+    <div style="vertical-align: middle; padding-top: 100px">LO ULTIMO</div>
   </div>
   <br>
   <div>
-    <h1 class="title"><span>Todos los peluches </span></h1>
+    <h1 class="title"><span>Todo lo nuevo</span></h1>
       <br>
       <VistaPeluches v-bind:arrPeluche="arrPeluche"/>
   </div>

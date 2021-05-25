@@ -20,7 +20,7 @@
     />
   </div>
   <br>
-  <div style="height: 300px; text-align:center; padding-top: 100px; background-color:#E0E0E0"> Copyright Jacobo Design (c) 2020</div>
+  <div style="height: 300px; text-align:center; padding-top: 100px; background-color:#E0E0E0"> Copyright Equipo BLT (c) 2021</div>
   </div>
 </template>
 
