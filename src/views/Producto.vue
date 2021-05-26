@@ -86,7 +86,9 @@ export default {
     },
   data() {
     return {
-      data: null,
+      data: {
+        pid: '1', images: ['https://cdn.shopify.com/s/files/1/0341/0444/3016/products/308-4A_clipped_rev_1_1024x1024@2x.jpg?v=1621629220','https://cdn.shopify.com/s/files/1/0341/0444/3016/products/308-4B_clipped_rev_1_1024x1024@2x.jpg?v=1621629220'], name: 'VESTIDO MAXI NEGRO CON ESTAMPADO FLORAL', prices: 500
+      },
       quantity: 1,
       loading: true,
       valid: true

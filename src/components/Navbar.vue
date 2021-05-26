@@ -16,11 +16,10 @@
     </div>
     <div class="navbar-menu" :class="{ 'is-active': showNav }">
       <div class="navbar-end">
-        <router-link class="navbar-item" to="/">Menu</router-link>
-        <router-link class="navbar-item" to="/peluches">Ultimo</router-link>
-        <router-link class="navbar-item" to="/patrones">Popular</router-link>
-        <router-link class="navbar-item" to="/contacto">Contacto</router-link>
-        <router-link class="navbar-item" to="/account">Mi Cuenta</router-link>
+        <router-link class="navbar-item" to="/">Prendas</router-link>
+        <router-link class="navbar-item" to="/patrones">Populares</router-link>
+        <router-link class="navbar-item" to="/contacto">Contactanos</router-link>
+        <router-link class="navbar-item" to="/account">Mi Perfil</router-link>
         <a class="navbar-item navbar-cart" @click="$emit('show-cart')">
           <i class="fas fa-shopping-cart"></i>
         </a>
